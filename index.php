@@ -5,29 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Мой сайт</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
 </head>
 <body>
 
+<?php
 
-    <h1>HTML5 &lt;dialog&gt; Element</h1>
-    <p id="result">Click on the button to open modal</p>
-    <button id="openButton">Open Modal</button>
+$title = $_GET['title'];
+$description = $_GET['description'];
 
-    <!-- element -->
-    <dialog id="confirmationDialog">
-      <!-- content -->
-      <button aria-label="Close modal" id="buttonCloseX">✖</button>
-      
-      <h1>Modal message here</h1>
-      <p>Are you sure to confirm this action?</p>
-      
-      <input type="text" name="title"/>
-      <input type="text" name="description"/>
-      
-      <button id="buttonOk">Confirm</button>
-      <button id="buttonClose">Close</button>
-    </dialog>
+echo $title . PHP_EOL;
+echo $description;
 
-<script src="scripts.js"></script>
+?>
+
+
 </body>
 </html>
