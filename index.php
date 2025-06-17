@@ -15,19 +15,19 @@
 
     <!-- element -->
     <dialog id="confirmationDialog">
-        <!-- content -->
-        <button aria-label="Close modal" id="buttonCloseX">✖</button>
-        
-        <h1>Modal message here</h1>
-        <p>Are you sure to confirm this action?</p>
-        
-        <input type="text" name="title"/>
-        <input type="text" name="description"/>
-        
-        <button id="buttonOk">Confirm</button>
-        <button id="buttonClose">Close</button>
+      <!-- content -->
+      <button aria-label="Close modal" id="buttonCloseX">✖</button>
+      
+      <h1>Modal message here</h1>
+      <p>Are you sure to confirm this action?</p>
+      
+      <input type="text" name="title"/>
+      <input type="text" name="description"/>
+      
+      <button id="buttonOk">Confirm</button>
+      <button id="buttonClose">Close</button>
     </dialog>
 
-<script src="script.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
