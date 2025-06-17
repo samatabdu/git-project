@@ -7,15 +7,17 @@
 body {
   text-align: center;
   font-size: 0;
-  background: #f1de9a;
+  background: #407f76;
   padding: 1rem 2rem;
 }
+
 h1 {
   font-size: 3rem;
   margin-bottom: 0 0 2.5rem 0;
   padding: 0;
   text-align: center;
 }
+
 button {
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
