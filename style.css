@@ -44,15 +44,19 @@ dialog {
 }
 
 h1, h2, h3, h4, h5, h6 {
+
 }
+
 section {
     padding: 60px 0;
     min-height: 100vh;
 }
+
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     outline: none;
 }
+
 ul {
     margin: 0;
     padding: 0;
@@ -68,6 +72,7 @@ ul {
   position: relative;
   padding: 85px 0px 80px 0px;
 }
+
 .footer-content:before{
   position: absolute;
   content: '';

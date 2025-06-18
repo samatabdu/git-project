@@ -8,14 +8,74 @@
 </head>
 <body>
 
+  <head>
+    <ul class="multilevel-dropdown-menu">
+        <li class="parent"><a href="#">Popular Toys</a>
+            <ul class="child">
+                <li class="parent"><a href="#">Video Games <span class="expand">»</span></a>
+                    <ul class="child">
+                        <li><a href="#">Car</a></li>
+                        <li><a href="#">Bike Race</a></li>
+                        <li><a href="#">Fishing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Barbies</a></li>
+                <li><a href="#">Teddy Bear</a></li>
+                <li class="parent"><a href="#">Level 1 <span class="expand">»</span></a>
+                    <ul class="child">
+                        <li><a href="#">Level 2 - Menu 1</a></li>
+                        <li><a href="#">Level 2 - Menu 2</a></li>
+                        <li class="parent"><a href="#">Level 2 - Menu 3<span class="expand">»</span></a>
+                            <ul class="child">
+                                <li><a href="#">Level 3 - Menu 1</a></li>
+                                <li><a href="#">Level 3 - Menu 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="parent"><a href="#">Recent Toys</a>
+            <ul class="child">
+                <li><a href="#">Yoyo</a></li>
+                <li><a href="#">Doctor Kit</a></li>
+                <li class="parent"><a href="#">Fun Puzzle<span class="expand">»</span></a>
+                    <ul class="child">
+                        <li><a href="#" nowrap>Cards</a></li>
+                        <li><a href="#" nowrap>Numbers</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Uno Cards</a></li>
+            </ul>
+        </li>
+        <li class="parent"><a href="#">Toys Category</a>
+            <ul class="child">
+                <li><a href="#">Battery Toys</a></li>
+                <li class="parent"><a href="#">Remote Toys <span class="expand">»</span></a>
+                    <ul class="child">
+                        <li><a href="#">Cars</a></li>
+                        <li class="parent"><a href="#">Aeroplane <span class="expand">»</span></a>
+                            <ul class="child">
+                                <li><a href="#">Passenger</a></li>
+                                <li><a href="#">Fighter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Helicopter</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Soft Toys</a></li>
+                <li><a href="#">Magnet Toys</a></li>
+            </ul>
+        </li>
+    </ul>
+  </head>
 
+  <main>
     <h1>HTML5 &lt;dialog&gt; Element</h1>
     <p id="result">Click on the button to open modal</p>
     <button id="openButton">Open Modal</button>
 
-    <!-- element -->
     <dialog id="confirmationDialog">
-        <!-- content -->
         <button aria-label="Close modal" id="buttonCloseX">✖</button>
         
         <h1>Modal message here</h1>
@@ -27,6 +87,7 @@
         <button id="buttonOk">Confirm</button>
         <button id="buttonClose">Close</button>
     </dialog>
+  </main>
 
     <footer class="main-footer">
         <div class="container">
